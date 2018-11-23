@@ -1,0 +1,10 @@
+Au chargement de la page:
+    -faire une requete à la base de donnée
+    -remplir le state avec le resultat de la requete
+
+
+/////////////////////////// 
+
+- pour chaque element du tableau (issu de la database):
+    -créer le composant correspondant
+-afficher

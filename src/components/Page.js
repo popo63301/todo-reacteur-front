@@ -14,6 +14,7 @@ class Page extends Component {
         }}
       >
         <TodoList />
+
         <TodoForm />
       </div>
     );
