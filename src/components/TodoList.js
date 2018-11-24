@@ -18,8 +18,8 @@ class TodoList extends Component {
   }
 
   render() {
-    const listFormatted = this.state.list.map(elem => (
-      <TodoListItem title={elem.title} description={elem.description} />
+    const listFormatted = this.state.list.map((elem, i) => (
+      <TodoListItem title={elem.title} description={elem.description} key={i} />
     ));
 
     return <div>{listFormatted}</div>;
